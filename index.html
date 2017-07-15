@@ -2,181 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ben's Portfolio Site</title>
-    <link href="smallstyle.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-
-    <header class="header">
-      <div class="header__inner">
-        <img class="header__logo" src="images/city.png" alt="iconic view of a cityscape">
-        <h1 class="header__title">
-          Ben Hakes
-        </h1>
+    <header class="Header">
+      <div class="logo">
+        <img class="profile__pic" src="images/stewart.jpg" alt="me!">
+      </div>
+      <div class="profile__name">
+        <h1 style="text-align: right">Ben Hakes</h1>
+        <div class="profile__title">
+          <h3>Bitcoin, Blockchain, and Real Estate</h3>
+        </div>
       </div>
     </header>
-
-    <nav id="drawer" class="nav">
-      <ul class="nav__list">
-        <li class="nav__item"><a href="#">News</a></li>
-        <li class="nav__item"><a href="#">Events</a></li>
-        <li class="nav__item"><a href="#">Culture</a></li>
-        <li class="nav__item"><a href="#">Blog</a></li>
-      </ul>
-    </nav>
-
-    <main>
-      <section class="content">
-        <section class="hero">
-          <article class="description">
-            <h2>Absolutely astonishing breaking news!</h2>
-            <p>Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko. Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko.</p>
-          </article>
-        </section>
-
-        <section class="news top-news">
-          <h2 class="news__title">Top news <a href="#" class="news__more">+ more</a></h2>
-          <ul>
-            <li class="top-news__item">
-              <a href="#">Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.</a>
-            </li>
-            <li class="top-news__item">
-              <a href="#">Squid lomo Kickstarter art lomo Kickstarter art party cronut scenester.</a>
-            </li>
-            <li class="top-news__item">
-              <a href="#">Organic raw denim lomo Kickstarter art Vice keffiyeh four loko.</a>
-            </li>
-            <li class="top-news__item">
-              <a href="#">Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko.</a>
-            </li>
-          </ul>
-        </section>
-
-        <section class="scores">
-          <table class="scores__table">
-            <thead>
-              <tr>
-                <th>date</th>
-                <th>team</th>
-                <th colspan="2">score</th>
-                <th>team</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Friday</td>
-                <td>Bears</td>
-                <td>95</td>
-                <td class="winner">109</td>
-                <td class="winner">Cubs</td>
-              </tr>
-              <tr>
-                <td>Friday</td>
-                <td class="winner">Otters</td>
-                <td class="winner">3</td>
-                <td>1</td>
-                <td>Cubs</td>
-              </tr>
-              <tr>
-                <td>Saturday</td>
-                <td class="winner">Wolves</td>
-                <td class="winner">7</td>
-                <td>0</td>
-                <td>Panthers</td>
-              </tr>
-              <tr>
-                <td>Sunday</td>
-                <td>Hawks</td>
-                <td>11</td>
-                <td class="winner">12</td>
-                <td class="winner">Capons</td>
-              </tr>
-              <tr>
-                <td>Sunday</td>
-                <td class="winner">Stags</td>
-                <td class="winner">6</td>
-                <td>2</td>
-                <td>Foxes</td>
-              </tr>
-
-            </tbody>
-          </table>
-        </section>
-
-        <section class="weather">
-          <span class="weather__location">Brighton, UK</span>
-          <span class="weather__desc">Sunny</span>
-          <span class="weather__today">
-          <img class="weather__today__image" src="images/weather.png" alt="icon of a partially sunny day"><span class="weather__today__temp">13</span><span class="weather__today__deg">&deg;C</span>
-          </span>
-          <ul class="weather__next">
-            <li class="weather__next__item">
-              <span>Mon</span>
-              <img class="weather__next__image" src="images/sunny.png" alt="icon of a sunny day">
-              <span>13 &deg;C</span>
-            </li><li class="weather__next__item">
-              <span>Tues</span>
-              <img class="weather__next__image" src="images/cloudy.png" alt="icon of a cloudy day">
-              <span>13 &deg;C</span>
-            </li><li class="weather__next__item">
-              <span>Wed</span>
-              <img class="weather__next__image" src="images/cloudy.png" alt="icon of a cloudy day">
-              <span>13 &deg;C</span>
-            </li><li class="weather__next__item">
-              <span>Thu</span>
-              <img class="weather__next__image" src="images/rain.png" alt="icon of a rainy day">
-              <span>13 &deg;C</span>
-            </li><li class="weather__next__item">
-              <span>Fri</span>
-              <img class="weather__next__image" src="images/sunny.png" alt="icon of a sunny day">
-              <span>13 &deg;C</span>
-            </li>
-          </ul>
-        </section>
-
-        <section class="news recent-news">
-          <h2 class="news__title">Latest news <a href="#" class="news__more">+ more</a></h2>
-          <ul>
-            <li class="snippet">
-              <img class="snippet__thumbnail" src="images/dog.jpg" alt="picture of a girl with a large, stuffed dog toy">
-              <h3 class="snippet__title"><a href="#">Gastropub distillery Marfa farm-to-table</a></h3>
-              <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.
-              Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.
-              </p>
-            </li>
-            <li class="snippet">
-              <img class="snippet__thumbnail" src="images/dog.jpg" alt="picture of a girl with a large, stuffed dog toy">
-              <h3 class="snippet__title"><a href="#">Organic raw keffiyeh four loko.</a></h3>
-              <p>Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice loko.
-              </p>
-            </li>
-            <li class="snippet">
-              <img class="snippet__thumbnail" src="images/dog.jpg" alt="picture of a girl with a large, stuffed dog toy">
-              <h3 class="snippet__title"><a href="#">Kickstarter art party cronut scenester.</a></h3>
-              <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.
-              Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko.
-              </p>
-            </li>
-            <li class="snippet">
-              <img class="snippet__thumbnail" src="images/dog.jpg" alt="picture of a girl with a large, stuffed dog toy">
-              <h3 class="snippet__title"><a href="#">Squid lomo Kickstarter art party cronut </a></h3>
-              <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.
-              Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko.
-              </p>
-            </li>
-          </ul>
-        </section>
-      </section>
-      <footer>
-        <ul>
-          <li><a href="#">Contact us</a></li>
-          <li><a href="#">Follow us on Twitter</a></li>
-          <li><a href="#">RSS</a></li>
-        </ul>
-      </footer>
-    </main>
+    <div class="body__leader">
+    </div>
+    <div class="frontpage_holder">
+      <div class="quote">"You are who you pretend to be, so be careful who you pretend to be. -KV"</div>
+      <img class="frontpage image" src="images/pihabeach.jpg" alt="view from Piha!">
+    </div>
+    <h2 class="project_container_cap"> Featured Work</h2>
+    <div class="project_container">
+      <div class="project">
+        <a href="https://github.com/bhhakes/blockchain101">
+          <img class="project_image image" src="images/blockchain.jpg" alt="icon of a blockchain network">
+          <div class="sub1">
+              <p class="project_title">Blockchain101</p>
+              <p class="project_link">https://github.com/bhhakes/blockchain101</p>
+          </div>
+        </a>
+      </div>
+      <div class="project">
+        <a href="https://github.com/bhhakes/questions_project_in_py">
+          <img class="project_image" src="images/question.png" alt="icon of a question mark">
+          <div class="sub1">
+              <p class="project_title">Questions in Python</p>
+              <p class="project_link">https://github.com/bhhakes/questions_project_in_py</p>
+          </div>
+        </a>
+      </div>
+      <div class="project">
+        <a href="https://github.com/bhhakes/swiss-system-tournament">
+          <img class="project_image" src="images/swiss.gif" alt="swiss-style tournament image">
+          <div class="sub1">
+              <p class="project_title">Swiss-System Tournament</p>
+              <p class="project_link">https://github.com/bhhakes/swiss-system-tournament</p>
+          </div>
+        </a>
+      </div>
+    </div>
   </body>
 </html>
